@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Online shopping site</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="navigator">
+			<h3 id="logo">Flipkart</h3>
+			<input id="searchbar" type="text" placeholder="Search for products,brands and more"/>
+			<i class="fa fa-search " style="font-size:24px;color:white"></i>
+			<div id="menu">
+				<a href="" class="cart">Login & SignUp</a>
+				<div class="dropdown">
+					<button class="dropbutton">More<i class="fa fa-sort-down" style="font-size:24px;color:white"></i></button>
+					<div class="dropmenu">
+						<a href="">Sell on Flipkart</a>
+						<a href="">24*7 service</a>
+						<a href="">Advertise</a>
+						<a href="">Download App</a>
+					</div>
+				</div>
+				<a href="" class="cart">Cart<i class="fa fa-shopping-cart" style="font-size:24px;color:#f2f2f2"></i></a>
+			</div>
+		</div>
+		<div id="categories">
+			<div class="dropdownC">
+				<button class="dropbuttonC">Electronics<i class="fa fa-sort-down" style="font-size:24px;color:#f2f2f2"></i></button>
+				<div class="dropmenu">
+						<a href="">Sell on Flipkart</a>
+						<a href="">24*7 service</a>
+						<a href="">Advertise</a>
+						<a href="">Download App</a>
+				</div>
+			</div>
+			<div class="dropdownC">
+				<button class="dropbuttonC">TVs & Appliances<i class="fa fa-sort-down" style="font-size:24px;color:#f2f2f2"></i></button>
+				<div class="dropmenu">
+						<a href="">Sell on Flipkart</a>
+						<a href="">24*7 service</a>
+						<a href="">Advertise</a>
+						<a href="">Download App</a>
+				</div>
+			</div>
+			<div class="dropdownC">
+				<button class="dropbuttonC">Men<i class="fa fa-sort-down" style="font-size:24px;color:#f2f2f2"></i></button>
+				<div class="dropmenu">
+						<a href="">Sell on Flipkart</a>
+						<a href="">24*7 service</a>
+						<a href="">Advertise</a>
+						<a href="">Download App</a>
+				</div>
+			</div>
+			<div class="dropdownC">
+				<button class="dropbuttonC">Women<i class="fa fa-sort-down" style="font-size:24px;color:#f2f2f2"></i></button>
+				<div class="dropmenu">
+						<a href="">Sell on Flipkart</a>
+						<a href="">24*7 service</a>
+						<a href="">Advertise</a>
+						<a href="">Download App</a>
+				</div>
+			</div>
+			<div class="dropdownC">
+				<button class="dropbuttonC">Baby & Kids<i class="fa fa-sort-down" style="font-size:24px;color:#f2f2f2"></i></button>
+				<div class="dropmenu">
+						<a href="">Sell on Flipkart</a>
+						<a href="">24*7 service</a>
+						<a href="">Advertise</a>
+						<a href="">Download App</a>
+				</div>
+			</div>
+			<div class="dropdownC">
+				<button class="dropbuttonC"> Home & Furniture<i class="fa fa-sort-down" style="font-size:24px;color:#f2f2f2"></i></button>
+				<div class="dropmenu">
+						<a href="">Sell on Flipkart</a>
+						<a href="">24*7 service</a>
+						<a href="">Advertise</a>
+						<a href="">Download App</a>
+				</div>
+			</div>
+			<div class="dropdownC">
+				<button class="dropbuttonC"> Sports,Books & More<i class="fa fa-sort-down" style="font-size:24px;color:#f2f2f2"></i></button>
+				<div class="dropmenu">
+						<a href="">Sell on Flipkart</a>
+						<a href="">24*7 service</a>
+						<a href="">Advertise</a>
+						<a href="">Download App</a>
+				</div>
+			</div>
+			<div class="dropdownC" >
+				<button class="dropbuttonC">Offer Zone<i class="fa fa-sort-down" style="font-size:24px;color:#f2f2f2"></i></button>
+				<div class="dropmenu">
+						<a href="">Sell on Flipkart</a>
+						<a href="">24*7 service</a>
+						<a href="">Advertise</a>
+						<a href="">Download App</a>
+				</div>
+			</div>
+		</div>
+		<div id="slideshow">
+			<button class="over" id="left"  onClick="changeSlide(-1)" ></button>
+			<button class="over" style="right:0;" id="right" onClick="changeSlide(1)"></button>
+			<div class="slides" style="display:block;"><img src="images/i1.jpeg"/></div>
+			<div class="slides"><img src="images/i2.jpeg"/></div>
+			<div class="slides"><img src="images/i3.jpeg"/></div>
+		</div>
+		<div id="deals">
+			<h2 style="display:inline">Deals of the day</h2>
+			<button id="view">View All</button>
+			<br/>
+			<a href=""><div class="deal"><img src="images/d1.jpeg" /><h3>Iron</h3><p>Flat 30% off</p></div></a>
+			<a href=""><div class="deal"><img src="images/d2.jpeg"/><h3>Speaker</h3><p>Flat 20% off</p></div></a>
+			<a href=""><div class="deal"><img src="images/d3.jpeg" /><h3>Spa</h3><p>Flat 10% off</p></div></a>
+			<a href=""><div class="deal"><img src="images/d4.jpeg" /><h3>XYZ Mobile</h3><p>EMI starting at Rs.1000</p></div></a>
+		</div>
+	</body>
+</html>
